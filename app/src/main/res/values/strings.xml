@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Utility X-Ray AR</string>
+    <string name="camera_permission_required">Camera permission is required to render AR underground utilities.</string>
+    <string name="location_permission_required">Location permission is required for GIS alignment.</string>
+</resources>
