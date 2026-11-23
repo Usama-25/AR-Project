@@ -1,0 +1,4019 @@
+{
+ "type": "FeatureCollection",
+ "name": "Aslam_Market_all_utilities",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P001",
+    "type": "sewer",
+    "diameter_mm": 450,
+    "depth_m": 1.84,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MAP_EDGE",
+    "to_node": "MH001",
+    "length_m": 10.48,
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7663698,
+      33.7655389
+     ],
+     [
+      72.7664484,
+      33.7654709
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P002",
+    "type": "sewer",
+    "diameter_mm": 450,
+    "depth_m": 1.9,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH001",
+    "to_node": "MH002",
+    "length_m": 29.8,
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7664484,
+      33.7654709
+     ],
+     [
+      72.7666729,
+      33.7652785
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P003",
+    "type": "sewer",
+    "diameter_mm": 450,
+    "depth_m": 2.0,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH002",
+    "to_node": "MH003",
+    "length_m": 29.95,
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7666729,
+      33.7652785
+     ],
+     [
+      72.766899,
+      33.7650855
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P004",
+    "type": "sewer",
+    "diameter_mm": 450,
+    "depth_m": 2.12,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH003",
+    "to_node": "MH004",
+    "length_m": 29.85,
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.766899,
+      33.7650855
+     ],
+     [
+      72.7671233,
+      33.7648924
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P005",
+    "type": "sewer",
+    "diameter_mm": 450,
+    "depth_m": 2.22,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH004",
+    "to_node": "MH005",
+    "length_m": 29.99,
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7671233,
+      33.7648924
+     ],
+     [
+      72.7673495,
+      33.764699
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P006",
+    "type": "sewer",
+    "diameter_mm": 450,
+    "depth_m": 2.34,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH005",
+    "to_node": "MH006",
+    "length_m": 29.8,
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7673495,
+      33.764699
+     ],
+     [
+      72.7675737,
+      33.7645064
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P007",
+    "type": "sewer",
+    "diameter_mm": 450,
+    "depth_m": 2.45,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH006",
+    "to_node": "MH007",
+    "length_m": 30.01,
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7675737,
+      33.7645064
+     ],
+     [
+      72.7677996,
+      33.7643125
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P008",
+    "type": "sewer",
+    "diameter_mm": 450,
+    "depth_m": 2.55,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH007",
+    "to_node": "MH008",
+    "length_m": 30.05,
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7677996,
+      33.7643125
+     ],
+     [
+      72.7680229,
+      33.764116
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P009",
+    "type": "sewer",
+    "diameter_mm": 300,
+    "depth_m": 1.53,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MAP_EDGE",
+    "to_node": "MH009",
+    "length_m": 6.39,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7673659,
+      33.7651784
+     ],
+     [
+      72.7674189,
+      33.7651415
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P010",
+    "type": "sewer",
+    "diameter_mm": 300,
+    "depth_m": 1.58,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH009",
+    "to_node": "MH010",
+    "length_m": 23.48,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7674189,
+      33.7651415
+     ],
+     [
+      72.7676037,
+      33.7649966
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P011",
+    "type": "sewer",
+    "diameter_mm": 300,
+    "depth_m": 1.68,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH010",
+    "to_node": "MH011",
+    "length_m": 26.39,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7676037,
+      33.7649966
+     ],
+     [
+      72.7678102,
+      33.7648327
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P012",
+    "type": "sewer",
+    "diameter_mm": 300,
+    "depth_m": 1.78,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH011",
+    "to_node": "MH012",
+    "length_m": 24.52,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7678102,
+      33.7648327
+     ],
+     [
+      72.7680044,
+      33.7646825
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P013",
+    "type": "sewer",
+    "diameter_mm": 300,
+    "depth_m": 1.87,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH012",
+    "to_node": "MH013",
+    "length_m": 25.24,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7680044,
+      33.7646825
+     ],
+     [
+      72.7682019,
+      33.7645258
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P014",
+    "type": "sewer",
+    "diameter_mm": 300,
+    "depth_m": 1.92,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH013",
+    "to_node": "MAP_EDGE",
+    "length_m": 18.83,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7682019,
+      33.7645258
+     ],
+     [
+      72.7683464,
+      33.7644064
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P015",
+    "type": "sewer",
+    "diameter_mm": 225,
+    "depth_m": 1.54,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MAP_EDGE",
+    "to_node": "MH014",
+    "length_m": 8.82,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7679778,
+      33.765402
+     ],
+     [
+      72.7680392,
+      33.7653412
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P016",
+    "type": "sewer",
+    "diameter_mm": 225,
+    "depth_m": 1.6,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH014",
+    "to_node": "MH015",
+    "length_m": 26.16,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7680392,
+      33.7653412
+     ],
+     [
+      72.7682374,
+      33.7651732
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P017",
+    "type": "sewer",
+    "diameter_mm": 225,
+    "depth_m": 1.72,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH015",
+    "to_node": "MH016",
+    "length_m": 26.02,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7682374,
+      33.7651732
+     ],
+     [
+      72.768435,
+      33.7650065
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P018",
+    "type": "sewer",
+    "diameter_mm": 225,
+    "depth_m": 1.83,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH016",
+    "to_node": "MH017",
+    "length_m": 21.91,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.768435,
+      33.7650065
+     ],
+     [
+      72.7686062,
+      33.7648703
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P019",
+    "type": "sewer",
+    "diameter_mm": 225,
+    "depth_m": 1.88,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH017",
+    "to_node": "MAP_EDGE",
+    "length_m": 4.52,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7686062,
+      33.7648703
+     ],
+     [
+      72.7686399,
+      33.7648408
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "MH001",
+    "type": "manhole",
+    "street": "Quaid Ave service road (main market road)",
+    "depth_m": 1.84,
+    "chamber_mm": 1200,
+    "material": "RCC",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "manholes"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7664484,
+     33.7654709
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "MH002",
+    "type": "manhole",
+    "street": "Quaid Ave service road (main market road)",
+    "depth_m": 1.95,
+    "chamber_mm": 1200,
+    "material": "RCC",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "manholes"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7666729,
+     33.7652785
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "MH003",
+    "type": "manhole",
+    "street": "Quaid Ave service road (main market road)",
+    "depth_m": 2.06,
+    "chamber_mm": 1200,
+    "material": "RCC",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "manholes"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.766899,
+     33.7650855
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "MH004",
+    "type": "manhole",
+    "street": "Quaid Ave service road (main market road)",
+    "depth_m": 2.17,
+    "chamber_mm": 1200,
+    "material": "RCC",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "manholes"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7671233,
+     33.7648924
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "MH005",
+    "type": "manhole",
+    "street": "Quaid Ave service road (main market road)",
+    "depth_m": 2.28,
+    "chamber_mm": 1200,
+    "material": "RCC",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "manholes"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7673495,
+     33.764699
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "MH006",
+    "type": "manhole",
+    "street": "Quaid Ave service road (main market road)",
+    "depth_m": 2.39,
+    "chamber_mm": 1200,
+    "material": "RCC",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "manholes"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7675737,
+     33.7645064
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "MH007",
+    "type": "manhole",
+    "street": "Quaid Ave service road (main market road)",
+    "depth_m": 2.5,
+    "chamber_mm": 1200,
+    "material": "RCC",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "manholes"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7677996,
+     33.7643125
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "MH008",
+    "type": "manhole",
+    "street": "Quaid Ave service road (main market road)",
+    "depth_m": 2.6,
+    "chamber_mm": 1200,
+    "material": "RCC",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "manholes"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7680229,
+     33.764116
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "MH009",
+    "type": "manhole",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "depth_m": 1.53,
+    "chamber_mm": 1200,
+    "material": "RCC",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "manholes"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7674189,
+     33.7651415
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "MH010",
+    "type": "manhole",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "depth_m": 1.62,
+    "chamber_mm": 1200,
+    "material": "RCC",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "manholes"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7676037,
+     33.7649966
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "MH011",
+    "type": "manhole",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "depth_m": 1.73,
+    "chamber_mm": 1200,
+    "material": "RCC",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "manholes"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7678102,
+     33.7648327
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "MH012",
+    "type": "manhole",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "depth_m": 1.82,
+    "chamber_mm": 1200,
+    "material": "RCC",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "manholes"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7680044,
+     33.7646825
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "MH013",
+    "type": "manhole",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "depth_m": 1.92,
+    "chamber_mm": 1200,
+    "material": "RCC",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "manholes"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7682019,
+     33.7645258
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "MH014",
+    "type": "manhole",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "depth_m": 1.54,
+    "chamber_mm": 1200,
+    "material": "RCC",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "manholes"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7680392,
+     33.7653412
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "MH015",
+    "type": "manhole",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "depth_m": 1.66,
+    "chamber_mm": 1200,
+    "material": "RCC",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "manholes"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7682374,
+     33.7651732
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "MH016",
+    "type": "manhole",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "depth_m": 1.78,
+    "chamber_mm": 1200,
+    "material": "RCC",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "manholes"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.768435,
+     33.7650065
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "MH017",
+    "type": "manhole",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "depth_m": 1.88,
+    "chamber_mm": 1200,
+    "material": "RCC",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "manholes"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7686062,
+     33.7648703
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC001",
+    "type": "fiber_distribution",
+    "fiber_cnt": 48,
+    "cable": "ADSS 48F single-mode",
+    "from_node": "MAP_EDGE",
+    "to_node": "FP001",
+    "length_m": 13.36,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7665073,
+      33.7655407
+     ],
+     [
+      72.7666085,
+      33.7654549
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC002",
+    "type": "fiber_distribution",
+    "fiber_cnt": 48,
+    "cable": "ADSS 48F single-mode",
+    "from_node": "FP001",
+    "to_node": "FP002",
+    "length_m": 36.73,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7666085,
+      33.7654549
+     ],
+     [
+      72.7668848,
+      33.7652174
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC003",
+    "type": "fiber_distribution",
+    "fiber_cnt": 48,
+    "cable": "ADSS 48F single-mode",
+    "from_node": "FP002",
+    "to_node": "FP003",
+    "length_m": 36.81,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7668848,
+      33.7652174
+     ],
+     [
+      72.7671624,
+      33.76498
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC004",
+    "type": "fiber_distribution",
+    "fiber_cnt": 48,
+    "cable": "ADSS 48F single-mode",
+    "from_node": "FP003",
+    "to_node": "FDC01",
+    "length_m": 18.45,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7671624,
+      33.76498
+     ],
+     [
+      72.7673012,
+      33.7648607
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC005",
+    "type": "fiber_distribution",
+    "fiber_cnt": 48,
+    "cable": "ADSS 48F single-mode",
+    "from_node": "FDC01",
+    "to_node": "FP004",
+    "length_m": 18.45,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7673012,
+      33.7648607
+     ],
+     [
+      72.76744,
+      33.7647414
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC006",
+    "type": "fiber_distribution",
+    "fiber_cnt": 48,
+    "cable": "ADSS 48F single-mode",
+    "from_node": "FP004",
+    "to_node": "FP005",
+    "length_m": 36.82,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.76744,
+      33.7647414
+     ],
+     [
+      72.7677176,
+      33.7645039
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC007",
+    "type": "fiber_distribution",
+    "fiber_cnt": 48,
+    "cable": "ADSS 48F single-mode",
+    "from_node": "FP005",
+    "to_node": "FP006",
+    "length_m": 36.74,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7677176,
+      33.7645039
+     ],
+     [
+      72.7679939,
+      33.7642664
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC008",
+    "type": "fiber_distribution",
+    "fiber_cnt": 48,
+    "cable": "ADSS 48F single-mode",
+    "from_node": "FP006",
+    "to_node": "MAP_EDGE",
+    "length_m": 23.47,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7679939,
+      33.7642664
+     ],
+     [
+      72.7681712,
+      33.7641153
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC009",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "MAP_EDGE",
+    "to_node": "FP007",
+    "length_m": 12.66,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7673799,
+      33.7651901
+     ],
+     [
+      72.7674789,
+      33.7651115
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC010",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP007",
+    "to_node": "FP008",
+    "length_m": 19.91,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7674789,
+      33.7651115
+     ],
+     [
+      72.7676358,
+      33.7649889
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC011",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP008",
+    "to_node": "FP009",
+    "length_m": 19.91,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7676358,
+      33.7649889
+     ],
+     [
+      72.7677914,
+      33.7648651
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC012",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP009",
+    "to_node": "FP010",
+    "length_m": 19.91,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7677914,
+      33.7648651
+     ],
+     [
+      72.7679483,
+      33.7647425
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC013",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP010",
+    "to_node": "FP011",
+    "length_m": 19.9,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7679483,
+      33.7647425
+     ],
+     [
+      72.7681038,
+      33.7646187
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC014",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP011",
+    "to_node": "FP012",
+    "length_m": 19.91,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7681038,
+      33.7646187
+     ],
+     [
+      72.7682608,
+      33.7644961
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC015",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP012",
+    "to_node": "MAP_EDGE",
+    "length_m": 11.86,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7682608,
+      33.7644961
+     ],
+     [
+      72.7683538,
+      33.7644227
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC016",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "MAP_EDGE",
+    "to_node": "FP013",
+    "length_m": 8.98,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7679617,
+      33.7653886
+     ],
+     [
+      72.7680301,
+      33.7653312
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC017",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP013",
+    "to_node": "FP014",
+    "length_m": 13.85,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7680301,
+      33.7653312
+     ],
+     [
+      72.7681347,
+      33.765242
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC018",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP014",
+    "to_node": "FP015",
+    "length_m": 13.85,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7681347,
+      33.765242
+     ],
+     [
+      72.7682393,
+      33.7651528
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC019",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP015",
+    "to_node": "FP016",
+    "length_m": 13.93,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7682393,
+      33.7651528
+     ],
+     [
+      72.7683452,
+      33.7650636
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC020",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP016",
+    "to_node": "FP017",
+    "length_m": 13.86,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7683452,
+      33.7650636
+     ],
+     [
+      72.7684499,
+      33.7649744
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC021",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP017",
+    "to_node": "FP018",
+    "length_m": 13.93,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7684499,
+      33.7649744
+     ],
+     [
+      72.7685558,
+      33.7648852
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC022",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP018",
+    "to_node": "MAP_EDGE",
+    "length_m": 9.09,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7685558,
+      33.7648852
+     ],
+     [
+      72.7686242,
+      33.7648264
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP001",
+    "type": "pole_splice_closure",
+    "street": "Quaid Ave service road (main market road)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7666085,
+     33.7654549
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP002",
+    "type": "pole_splice_closure",
+    "street": "Quaid Ave service road (main market road)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7668848,
+     33.7652174
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP003",
+    "type": "pole_splice_closure",
+    "street": "Quaid Ave service road (main market road)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7671624,
+     33.76498
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP004",
+    "type": "pole_splice_closure",
+    "street": "Quaid Ave service road (main market road)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.76744,
+     33.7647414
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP005",
+    "type": "pole_splice_closure",
+    "street": "Quaid Ave service road (main market road)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7677176,
+     33.7645039
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP006",
+    "type": "pole_splice_closure",
+    "street": "Quaid Ave service road (main market road)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7679939,
+     33.7642664
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP007",
+    "type": "pole_splice_closure",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7674789,
+     33.7651115
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP008",
+    "type": "pole_splice_closure",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7676358,
+     33.7649889
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP009",
+    "type": "pole_splice_closure",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7677914,
+     33.7648651
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP010",
+    "type": "pole_splice_closure",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7679483,
+     33.7647425
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP011",
+    "type": "pole_splice_closure",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7681038,
+     33.7646187
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP012",
+    "type": "pole_splice_closure",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7682608,
+     33.7644961
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP013",
+    "type": "pole_splice_closure",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7680301,
+     33.7653312
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP014",
+    "type": "pole_splice_closure",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7681347,
+     33.765242
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP015",
+    "type": "pole_splice_closure",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7682393,
+     33.7651528
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP016",
+    "type": "pole_splice_closure",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7683452,
+     33.7650636
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP017",
+    "type": "pole_splice_closure",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7684499,
+     33.7649744
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP018",
+    "type": "pole_splice_closure",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7685558,
+     33.7648852
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FDC01",
+    "type": "fiber_distribution_cabinet",
+    "ports": 144,
+    "splitter": "1:32 PLC x4",
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cabinet"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7673012,
+     33.7648607
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC001",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP001",
+    "to_premise": "SVC001",
+    "length_m": 4.36,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7667124,
+      33.765365
+     ],
+     [
+      72.7667463,
+      33.7653923
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC002",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP002",
+    "to_premise": "SVC002",
+    "length_m": 4.36,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7668425,
+      33.7652535
+     ],
+     [
+      72.7668763,
+      33.7652809
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC003",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP002",
+    "to_premise": "SVC003",
+    "length_m": 4.44,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7669723,
+      33.7651423
+     ],
+     [
+      72.7670068,
+      33.7651701
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC004",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP003",
+    "to_premise": "SVC004",
+    "length_m": 4.42,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7671021,
+      33.7650311
+     ],
+     [
+      72.7671364,
+      33.7650588
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC005",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP003",
+    "to_premise": "SVC005",
+    "length_m": 4.42,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7672322,
+      33.7649197
+     ],
+     [
+      72.7672665,
+      33.7649474
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC006",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP004",
+    "to_premise": "SVC006",
+    "length_m": 4.41,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7673624,
+      33.7648082
+     ],
+     [
+      72.7673966,
+      33.7648358
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC007",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP004",
+    "to_premise": "SVC007",
+    "length_m": 4.41,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7674924,
+      33.7646968
+     ],
+     [
+      72.7675266,
+      33.7647245
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC008",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP005",
+    "to_premise": "SVC008",
+    "length_m": 4.43,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.767622,
+      33.7645857
+     ],
+     [
+      72.7676564,
+      33.7646134
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC009",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP005",
+    "to_premise": "SVC009",
+    "length_m": 4.34,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7677521,
+      33.7644743
+     ],
+     [
+      72.7677857,
+      33.7645015
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC010",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP006",
+    "to_premise": "SVC010",
+    "length_m": 4.33,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7678821,
+      33.7643629
+     ],
+     [
+      72.7679157,
+      33.76439
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC011",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP006",
+    "to_premise": "SVC011",
+    "length_m": 4.33,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7680124,
+      33.7642513
+     ],
+     [
+      72.768046,
+      33.7642784
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC012",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP007",
+    "to_premise": "SVC012",
+    "length_m": 5.58,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.767439,
+      33.7651436
+     ],
+     [
+      72.7673975,
+      33.7651072
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC013",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP007",
+    "to_premise": "SVC013",
+    "length_m": 4.34,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7674404,
+      33.7651425
+     ],
+     [
+      72.7674727,
+      33.7651708
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC014",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP007",
+    "to_premise": "SVC014",
+    "length_m": 5.65,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7675173,
+      33.7650818
+     ],
+     [
+      72.7674752,
+      33.7650449
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC015",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP007",
+    "to_premise": "SVC015",
+    "length_m": 4.34,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7675185,
+      33.7650809
+     ],
+     [
+      72.7675508,
+      33.7651092
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC016",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP008",
+    "to_premise": "SVC016",
+    "length_m": 5.58,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7675957,
+      33.7650201
+     ],
+     [
+      72.7675542,
+      33.7649837
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC017",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP008",
+    "to_premise": "SVC017",
+    "length_m": 4.41,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7675967,
+      33.7650193
+     ],
+     [
+      72.7676295,
+      33.7650481
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC018",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP008",
+    "to_premise": "SVC018",
+    "length_m": 5.67,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7676736,
+      33.7649587
+     ],
+     [
+      72.7676314,
+      33.7649217
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC019",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP008",
+    "to_premise": "SVC019",
+    "length_m": 4.34,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7676748,
+      33.7649577
+     ],
+     [
+      72.7677071,
+      33.764986
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC020",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP009",
+    "to_premise": "SVC020",
+    "length_m": 5.58,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7677519,
+      33.764897
+     ],
+     [
+      72.7677104,
+      33.7648605
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC021",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP009",
+    "to_premise": "SVC021",
+    "length_m": 4.33,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7677528,
+      33.7648963
+     ],
+     [
+      72.767785,
+      33.7649246
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC022",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP009",
+    "to_premise": "SVC022",
+    "length_m": 5.59,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7678294,
+      33.7648359
+     ],
+     [
+      72.7677878,
+      33.7647994
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC023",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP009",
+    "to_premise": "SVC023",
+    "length_m": 4.33,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7678307,
+      33.7648349
+     ],
+     [
+      72.767863,
+      33.7648631
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC024",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP010",
+    "to_premise": "SVC024",
+    "length_m": 5.59,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7679081,
+      33.7647739
+     ],
+     [
+      72.7678665,
+      33.7647374
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC025",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP010",
+    "to_premise": "SVC025",
+    "length_m": 4.4,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7679093,
+      33.7647729
+     ],
+     [
+      72.7679421,
+      33.7648016
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC026",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP010",
+    "to_premise": "SVC026",
+    "length_m": 5.58,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7679859,
+      33.7647126
+     ],
+     [
+      72.7679443,
+      33.7646762
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC027",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP010",
+    "to_premise": "SVC027",
+    "length_m": 4.39,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7679871,
+      33.7647117
+     ],
+     [
+      72.7680198,
+      33.7647404
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC028",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP011",
+    "to_premise": "SVC028",
+    "length_m": 5.6,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7680644,
+      33.7646508
+     ],
+     [
+      72.7680227,
+      33.7646142
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC029",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP011",
+    "to_premise": "SVC029",
+    "length_m": 4.32,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7680655,
+      33.7646499
+     ],
+     [
+      72.7680976,
+      33.7646781
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC030",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP011",
+    "to_premise": "SVC030",
+    "length_m": 5.59,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7681421,
+      33.7645895
+     ],
+     [
+      72.7681005,
+      33.764553
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC031",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP011",
+    "to_premise": "SVC031",
+    "length_m": 4.32,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7681432,
+      33.7645887
+     ],
+     [
+      72.7681753,
+      33.7646169
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC032",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP012",
+    "to_premise": "SVC032",
+    "length_m": 5.62,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.76822,
+      33.7645282
+     ],
+     [
+      72.7681782,
+      33.7644915
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC033",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP012",
+    "to_premise": "SVC033",
+    "length_m": 4.39,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7682215,
+      33.764527
+     ],
+     [
+      72.7682542,
+      33.7645557
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC034",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP012",
+    "to_premise": "SVC034",
+    "length_m": 5.61,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7682986,
+      33.7644663
+     ],
+     [
+      72.7682568,
+      33.7644297
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC035",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP012",
+    "to_premise": "SVC035",
+    "length_m": 4.38,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7682997,
+      33.7644653
+     ],
+     [
+      72.7683323,
+      33.7644939
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC036",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP013",
+    "to_premise": "SVC036",
+    "length_m": 4.92,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7680168,
+      33.7653418
+     ],
+     [
+      72.7679788,
+      33.7653108
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC037",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP014",
+    "to_premise": "SVC037",
+    "length_m": 4.92,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7680825,
+      33.7652861
+     ],
+     [
+      72.7680445,
+      33.7652551
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC038",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP014",
+    "to_premise": "SVC038",
+    "length_m": 4.92,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7681482,
+      33.7652303
+     ],
+     [
+      72.7681102,
+      33.7651993
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC039",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP015",
+    "to_premise": "SVC039",
+    "length_m": 4.91,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7682139,
+      33.7651745
+     ],
+     [
+      72.7681759,
+      33.7651436
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC040",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP015",
+    "to_premise": "SVC040",
+    "length_m": 4.92,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7682796,
+      33.7651188
+     ],
+     [
+      72.7682416,
+      33.7650878
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC041",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP016",
+    "to_premise": "SVC041",
+    "length_m": 4.91,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7683453,
+      33.765063
+     ],
+     [
+      72.7683074,
+      33.7650321
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC042",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP017",
+    "to_premise": "SVC042",
+    "length_m": 4.91,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.768411,
+      33.7650073
+     ],
+     [
+      72.768373,
+      33.7649764
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC043",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP017",
+    "to_premise": "SVC043",
+    "length_m": 4.91,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7684767,
+      33.7649515
+     ],
+     [
+      72.7684388,
+      33.7649206
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "DC044",
+    "type": "drop_cable",
+    "fiber_cnt": 2,
+    "cable": "FTTH drop 2F",
+    "from_pole": "FP018",
+    "to_premise": "SVC044",
+    "length_m": 4.91,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "drop_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7685424,
+      33.7648958
+     ],
+     [
+      72.7685045,
+      33.7648649
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC001",
+    "type": "house_shop_connection",
+    "drop_id": "DC001",
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7667463,
+     33.7653923
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC002",
+    "type": "house_shop_connection",
+    "drop_id": "DC002",
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7668763,
+     33.7652809
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC003",
+    "type": "house_shop_connection",
+    "drop_id": "DC003",
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7670068,
+     33.7651701
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC004",
+    "type": "house_shop_connection",
+    "drop_id": "DC004",
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7671364,
+     33.7650588
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC005",
+    "type": "house_shop_connection",
+    "drop_id": "DC005",
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7672665,
+     33.7649474
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC006",
+    "type": "house_shop_connection",
+    "drop_id": "DC006",
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7673966,
+     33.7648358
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC007",
+    "type": "house_shop_connection",
+    "drop_id": "DC007",
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7675266,
+     33.7647245
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC008",
+    "type": "house_shop_connection",
+    "drop_id": "DC008",
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7676564,
+     33.7646134
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC009",
+    "type": "house_shop_connection",
+    "drop_id": "DC009",
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7677857,
+     33.7645015
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC010",
+    "type": "house_shop_connection",
+    "drop_id": "DC010",
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7679157,
+     33.76439
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC011",
+    "type": "house_shop_connection",
+    "drop_id": "DC011",
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.768046,
+     33.7642784
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC012",
+    "type": "house_shop_connection",
+    "drop_id": "DC012",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7673975,
+     33.7651072
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC013",
+    "type": "house_shop_connection",
+    "drop_id": "DC013",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7674727,
+     33.7651708
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC014",
+    "type": "house_shop_connection",
+    "drop_id": "DC014",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7674752,
+     33.7650449
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC015",
+    "type": "house_shop_connection",
+    "drop_id": "DC015",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7675508,
+     33.7651092
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC016",
+    "type": "house_shop_connection",
+    "drop_id": "DC016",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7675542,
+     33.7649837
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC017",
+    "type": "house_shop_connection",
+    "drop_id": "DC017",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7676295,
+     33.7650481
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC018",
+    "type": "house_shop_connection",
+    "drop_id": "DC018",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7676314,
+     33.7649217
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC019",
+    "type": "house_shop_connection",
+    "drop_id": "DC019",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7677071,
+     33.764986
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC020",
+    "type": "house_shop_connection",
+    "drop_id": "DC020",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7677104,
+     33.7648605
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC021",
+    "type": "house_shop_connection",
+    "drop_id": "DC021",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.767785,
+     33.7649246
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC022",
+    "type": "house_shop_connection",
+    "drop_id": "DC022",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7677878,
+     33.7647994
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC023",
+    "type": "house_shop_connection",
+    "drop_id": "DC023",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.767863,
+     33.7648631
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC024",
+    "type": "house_shop_connection",
+    "drop_id": "DC024",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7678665,
+     33.7647374
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC025",
+    "type": "house_shop_connection",
+    "drop_id": "DC025",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7679421,
+     33.7648016
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC026",
+    "type": "house_shop_connection",
+    "drop_id": "DC026",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7679443,
+     33.7646762
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC027",
+    "type": "house_shop_connection",
+    "drop_id": "DC027",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7680198,
+     33.7647404
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC028",
+    "type": "house_shop_connection",
+    "drop_id": "DC028",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7680227,
+     33.7646142
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC029",
+    "type": "house_shop_connection",
+    "drop_id": "DC029",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7680976,
+     33.7646781
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC030",
+    "type": "house_shop_connection",
+    "drop_id": "DC030",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7681005,
+     33.764553
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC031",
+    "type": "house_shop_connection",
+    "drop_id": "DC031",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7681753,
+     33.7646169
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC032",
+    "type": "house_shop_connection",
+    "drop_id": "DC032",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7681782,
+     33.7644915
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC033",
+    "type": "house_shop_connection",
+    "drop_id": "DC033",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7682542,
+     33.7645557
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC034",
+    "type": "house_shop_connection",
+    "drop_id": "DC034",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7682568,
+     33.7644297
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC035",
+    "type": "house_shop_connection",
+    "drop_id": "DC035",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7683323,
+     33.7644939
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC036",
+    "type": "house_shop_connection",
+    "drop_id": "DC036",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7679788,
+     33.7653108
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC037",
+    "type": "house_shop_connection",
+    "drop_id": "DC037",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7680445,
+     33.7652551
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC038",
+    "type": "house_shop_connection",
+    "drop_id": "DC038",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7681102,
+     33.7651993
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC039",
+    "type": "house_shop_connection",
+    "drop_id": "DC039",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7681759,
+     33.7651436
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC040",
+    "type": "house_shop_connection",
+    "drop_id": "DC040",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7682416,
+     33.7650878
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC041",
+    "type": "house_shop_connection",
+    "drop_id": "DC041",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7683074,
+     33.7650321
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC042",
+    "type": "house_shop_connection",
+    "drop_id": "DC042",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.768373,
+     33.7649764
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC043",
+    "type": "house_shop_connection",
+    "drop_id": "DC043",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7684388,
+     33.7649206
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "SVC044",
+    "type": "house_shop_connection",
+    "drop_id": "DC044",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "status": "proposed",
+    "layer": "service_points"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7685045,
+     33.7648649
+    ]
+   }
+  }
+ ]
+}

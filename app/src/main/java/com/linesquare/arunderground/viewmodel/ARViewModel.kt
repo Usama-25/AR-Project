@@ -1,52 +1,145 @@
 package com.linesquare.arunderground.viewmodel
 
-import androidx.lifecycle.ViewModel
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.viewModelScope
+import com.linesquare.arunderground.ar.DeviceOrientation
 import com.linesquare.arunderground.ar.PipeGeometryBuilder
 import com.linesquare.arunderground.ar.PipeSegment3D
+import com.linesquare.arunderground.gis.BuildingRepository
 import com.linesquare.arunderground.gis.SampleDataRepository
 import com.linesquare.arunderground.model.AlignmentOffset
+import com.linesquare.arunderground.model.BuildingCategory
+import com.linesquare.arunderground.model.BuildingComponent
+import com.linesquare.arunderground.model.BuildingPreset
 import com.linesquare.arunderground.model.GeoPoint
 import com.linesquare.arunderground.model.UtilityPipe
 import com.linesquare.arunderground.model.UtilityType
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 enum class RenderMode {
     SIMULATION,       // Indoor Horizon simulation canvas
-    LIVE_CAMERA,      // CameraX live video feed with interactive 3D pipe overlay
+    LIVE_CAMERA,      // CameraX live video feed with interactive 3D dynamic AR component overlay
     ARCORE_NATIVE     // Google ARCore + Filament 3D engine (for certified devices)
 }
 
 /**
- * UI State container for the Augmented Reality Underground Utility viewer.
+ * UI State container for the Augmented Reality Underground Utility & Building Component viewer.
  */
 data class ARUiState(
     val origin: GeoPoint = SampleDataRepository.DEFAULT_ORIGIN,
+    val currentPreset: BuildingPreset = BuildingPreset.COMMERCIAL_BUILDING,
+    val allComponents: List<BuildingComponent> = BuildingRepository.getCommercialBuildingComponents(),
+    val enabledCategories: Set<BuildingCategory> = BuildingCategory.values().toSet(),
+    val selectedComponent: BuildingComponent? = null,
+    val showDimensionBadges: Boolean = true,
+    val showDimensionLines: Boolean = true,
+    val deviceOrientation: DeviceOrientation = DeviceOrientation(),
     val allPipes: List<UtilityPipe> = SampleDataRepository.getSamplePipes(),
     val enabledTypes: Set<UtilityType> = UtilityType.values().toSet(),
     val selectedPipe: UtilityPipe? = null,
     val alignmentOffset: AlignmentOffset = AlignmentOffset(),
     val isCalibrationOpen: Boolean = false,
-    val isSimulationMode: Boolean = true,
-    val renderMode: RenderMode = RenderMode.SIMULATION,
+    val isSimulationMode: Boolean = false,
+    val renderMode: RenderMode = RenderMode.LIVE_CAMERA,
     val isArCoreAvailable: Boolean = false,
-    val trackingStatus: String = "Ready (Live Camera + Simulation Available)",
+    val trackingStatus: String = "Dynamic 60 FPS Sensor AR Active",
     val segments: List<PipeSegment3D> = emptyList()
-)
+) {
+    val visibleComponents: List<BuildingComponent>
+        get() = allComponents.filter { enabledCategories.contains(it.category) }
+}
 
-class ARViewModel : ViewModel() {
+class ARViewModel(application: Application) : AndroidViewModel(application) {
 
     private val _uiState = MutableStateFlow(ARUiState())
     val uiState: StateFlow<ARUiState> = _uiState.asStateFlow()
 
     init {
+        // Immediate in-memory startup
         recomputeSegments()
     }
 
     /**
-     * Toggles visibility of a specific utility category (e.g. Water, Sewer, Gas, Sanitary)
+     * Switches the active building environment preset (Commercial MEP, Aslam Market, Utilities, Industrial Plant).
+     */
+    fun setPreset(preset: BuildingPreset) {
+        viewModelScope.launch(Dispatchers.IO) {
+            try {
+                val components = BuildingRepository.getPresetComponents(preset, getApplication())
+                withContext(Dispatchers.Main) {
+                    _uiState.update { current ->
+                        current.copy(
+                            currentPreset = preset,
+                            allComponents = components,
+                            selectedComponent = null,
+                            selectedPipe = null
+                        )
+                    }
+                }
+            } catch (t: Throwable) {
+                t.printStackTrace()
+            }
+        }
+    }
+
+    /**
+     * Toggles visibility of a specific building component category.
+     */
+    fun toggleCategory(category: BuildingCategory) {
+        _uiState.update { current ->
+            val updated = if (current.enabledCategories.contains(category)) {
+                current.enabledCategories - category
+            } else {
+                current.enabledCategories + category
+            }
+            current.copy(enabledCategories = updated)
+        }
+    }
+
+    /**
+     * Selects a building component for detailed engineering dimension inspection.
+     */
+    fun selectComponent(component: BuildingComponent?) {
+        _uiState.update { current ->
+            current.copy(
+                selectedComponent = component,
+                selectedPipe = component?.let { comp ->
+                    current.allPipes.firstOrNull { it.id == comp.id }
+                }
+            )
+        }
+    }
+
+    /**
+     * Toggles 3D floating dimension badges in the live camera AR feed.
+     */
+    fun toggleDimensionBadges() {
+        _uiState.update { it.copy(showDimensionBadges = !it.showDimensionBadges) }
+    }
+
+    /**
+     * Toggles CAD dimension arrows and extension lines.
+     */
+    fun toggleDimensionLines() {
+        _uiState.update { it.copy(showDimensionLines = !it.showDimensionLines) }
+    }
+
+    /**
+     * Updates real-time device orientation angles and matrix from sensor fusion.
+     */
+    fun updateOrientation(orientation: DeviceOrientation) {
+        _uiState.update { it.copy(deviceOrientation = orientation) }
+    }
+
+    /**
+     * Toggles visibility of a specific utility category (legacy compatibility).
      */
     fun toggleLayer(type: UtilityType) {
         _uiState.update { current ->
@@ -61,14 +154,22 @@ class ARViewModel : ViewModel() {
     }
 
     /**
-     * Selects a pipeline asset for inspection
+     * Selects a pipeline asset for inspection (legacy compatibility).
      */
     fun selectPipe(pipe: UtilityPipe?) {
-        _uiState.update { it.copy(selectedPipe = pipe) }
+        _uiState.update { current ->
+            current.copy(
+                selectedPipe = pipe,
+                selectedComponent = pipe?.let { p ->
+                    current.allComponents.firstOrNull { it.id == p.id }
+                }
+            )
+        }
     }
 
     /**
-     * Nudges the entire 3D pipeline network in AR space to compensate for GPS drift
+     * Nudges the entire 3D building network in AR space to compensate for GPS drift
+     * or align with physical walls/columns.
      */
     fun nudge(dx: Float, dy: Float, dz: Float) {
         _uiState.update { current ->
@@ -85,7 +186,7 @@ class ARViewModel : ViewModel() {
     }
 
     /**
-     * Rotates the 3D pipeline network around the vertical axis by the specified degrees
+     * Rotates the 3D building network around the vertical axis by the specified degrees.
      */
     fun rotateYaw(degrees: Float) {
         _uiState.update { current ->
@@ -100,7 +201,22 @@ class ARViewModel : ViewModel() {
     }
 
     /**
-     * Resets manual calibration offsets to zero
+     * Tilts the 3D building network up or down by the specified pitch degrees.
+     */
+    fun rotatePitch(degrees: Float) {
+        _uiState.update { current ->
+            val cur = current.alignmentOffset
+            current.copy(
+                alignmentOffset = cur.copy(
+                    pitchOffsetDeg = cur.pitchOffsetDeg + degrees
+                )
+            )
+        }
+        recomputeSegments()
+    }
+
+    /**
+     * Resets manual calibration offsets to zero.
      */
     fun resetAlignment() {
         _uiState.update { it.copy(alignmentOffset = AlignmentOffset()) }
@@ -108,14 +224,14 @@ class ARViewModel : ViewModel() {
     }
 
     /**
-     * Toggles visibility of the manual calibration panel
+     * Toggles visibility of the manual calibration panel.
      */
     fun toggleCalibrationPanel() {
         _uiState.update { it.copy(isCalibrationOpen = !it.isCalibrationOpen) }
     }
 
     /**
-     * Sets explicit render mode
+     * Sets explicit render mode.
      */
     fun setRenderMode(mode: RenderMode) {
         _uiState.update {
@@ -127,19 +243,18 @@ class ARViewModel : ViewModel() {
     }
 
     /**
-     * Updates whether ARCore is installed and ready
+     * Updates whether ARCore is installed and ready.
      */
     fun setArCoreAvailable(available: Boolean) {
         _uiState.update { it.copy(isArCoreAvailable = available) }
     }
 
     /**
-     * Toggles between indoor test simulation mode and live camera AR mode
+     * Toggles between indoor test simulation mode and live camera AR mode.
      */
     fun toggleSimulationMode() {
         _uiState.update { current ->
             if (current.renderMode == RenderMode.SIMULATION) {
-                // If user clicks camera icon: activate ARCore if supported, otherwise Live Camera
                 val nextMode = if (current.isArCoreAvailable) RenderMode.ARCORE_NATIVE else RenderMode.LIVE_CAMERA
                 current.copy(renderMode = nextMode, isSimulationMode = false)
             } else {
@@ -149,7 +264,7 @@ class ARViewModel : ViewModel() {
     }
 
     /**
-     * Updates reference datum when GPS coordinates arrive from Android LocationManager
+     * Updates reference datum when GPS coordinates arrive.
      */
     fun updateGpsOrigin(newOrigin: GeoPoint) {
         _uiState.update { it.copy(origin = newOrigin) }
@@ -157,7 +272,7 @@ class ARViewModel : ViewModel() {
     }
 
     /**
-     * Updates the diagnostic tracking status text
+     * Updates the diagnostic tracking status text.
      */
     fun updateTrackingStatus(status: String) {
         _uiState.update { it.copy(trackingStatus = status) }

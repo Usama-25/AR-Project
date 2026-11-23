@@ -1,0 +1,650 @@
+{
+ "type": "FeatureCollection",
+ "name": "Aslam_Market_fiber_cables",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC001",
+    "type": "fiber_distribution",
+    "fiber_cnt": 48,
+    "cable": "ADSS 48F single-mode",
+    "from_node": "MAP_EDGE",
+    "to_node": "FP001",
+    "length_m": 13.36,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7665073,
+      33.7655407
+     ],
+     [
+      72.7666085,
+      33.7654549
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC002",
+    "type": "fiber_distribution",
+    "fiber_cnt": 48,
+    "cable": "ADSS 48F single-mode",
+    "from_node": "FP001",
+    "to_node": "FP002",
+    "length_m": 36.73,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7666085,
+      33.7654549
+     ],
+     [
+      72.7668848,
+      33.7652174
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC003",
+    "type": "fiber_distribution",
+    "fiber_cnt": 48,
+    "cable": "ADSS 48F single-mode",
+    "from_node": "FP002",
+    "to_node": "FP003",
+    "length_m": 36.81,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7668848,
+      33.7652174
+     ],
+     [
+      72.7671624,
+      33.76498
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC004",
+    "type": "fiber_distribution",
+    "fiber_cnt": 48,
+    "cable": "ADSS 48F single-mode",
+    "from_node": "FP003",
+    "to_node": "FDC01",
+    "length_m": 18.45,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7671624,
+      33.76498
+     ],
+     [
+      72.7673012,
+      33.7648607
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC005",
+    "type": "fiber_distribution",
+    "fiber_cnt": 48,
+    "cable": "ADSS 48F single-mode",
+    "from_node": "FDC01",
+    "to_node": "FP004",
+    "length_m": 18.45,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7673012,
+      33.7648607
+     ],
+     [
+      72.76744,
+      33.7647414
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC006",
+    "type": "fiber_distribution",
+    "fiber_cnt": 48,
+    "cable": "ADSS 48F single-mode",
+    "from_node": "FP004",
+    "to_node": "FP005",
+    "length_m": 36.82,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.76744,
+      33.7647414
+     ],
+     [
+      72.7677176,
+      33.7645039
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC007",
+    "type": "fiber_distribution",
+    "fiber_cnt": 48,
+    "cable": "ADSS 48F single-mode",
+    "from_node": "FP005",
+    "to_node": "FP006",
+    "length_m": 36.74,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7677176,
+      33.7645039
+     ],
+     [
+      72.7679939,
+      33.7642664
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC008",
+    "type": "fiber_distribution",
+    "fiber_cnt": 48,
+    "cable": "ADSS 48F single-mode",
+    "from_node": "FP006",
+    "to_node": "MAP_EDGE",
+    "length_m": 23.47,
+    "street": "Quaid Ave service road (main market road)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7679939,
+      33.7642664
+     ],
+     [
+      72.7681712,
+      33.7641153
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC009",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "MAP_EDGE",
+    "to_node": "FP007",
+    "length_m": 12.66,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7673799,
+      33.7651901
+     ],
+     [
+      72.7674789,
+      33.7651115
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC010",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP007",
+    "to_node": "FP008",
+    "length_m": 19.91,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7674789,
+      33.7651115
+     ],
+     [
+      72.7676358,
+      33.7649889
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC011",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP008",
+    "to_node": "FP009",
+    "length_m": 19.91,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7676358,
+      33.7649889
+     ],
+     [
+      72.7677914,
+      33.7648651
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC012",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP009",
+    "to_node": "FP010",
+    "length_m": 19.91,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7677914,
+      33.7648651
+     ],
+     [
+      72.7679483,
+      33.7647425
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC013",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP010",
+    "to_node": "FP011",
+    "length_m": 19.9,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7679483,
+      33.7647425
+     ],
+     [
+      72.7681038,
+      33.7646187
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC014",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP011",
+    "to_node": "FP012",
+    "length_m": 19.91,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7681038,
+      33.7646187
+     ],
+     [
+      72.7682608,
+      33.7644961
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC015",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP012",
+    "to_node": "MAP_EDGE",
+    "length_m": 11.86,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7682608,
+      33.7644961
+     ],
+     [
+      72.7683538,
+      33.7644227
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC016",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "MAP_EDGE",
+    "to_node": "FP013",
+    "length_m": 8.98,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7679617,
+      33.7653886
+     ],
+     [
+      72.7680301,
+      33.7653312
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC017",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP013",
+    "to_node": "FP014",
+    "length_m": 13.85,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7680301,
+      33.7653312
+     ],
+     [
+      72.7681347,
+      33.765242
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC018",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP014",
+    "to_node": "FP015",
+    "length_m": 13.85,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7681347,
+      33.765242
+     ],
+     [
+      72.7682393,
+      33.7651528
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC019",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP015",
+    "to_node": "FP016",
+    "length_m": 13.93,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7682393,
+      33.7651528
+     ],
+     [
+      72.7683452,
+      33.7650636
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC020",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP016",
+    "to_node": "FP017",
+    "length_m": 13.86,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7683452,
+      33.7650636
+     ],
+     [
+      72.7684499,
+      33.7649744
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC021",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP017",
+    "to_node": "FP018",
+    "length_m": 13.93,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7684499,
+      33.7649744
+     ],
+     [
+      72.7685558,
+      33.7648852
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FC022",
+    "type": "fiber_distribution",
+    "fiber_cnt": 24,
+    "cable": "ADSS 24F single-mode",
+    "from_node": "FP018",
+    "to_node": "MAP_EDGE",
+    "length_m": 9.09,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_cables"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7685558,
+      33.7648852
+     ],
+     [
+      72.7686242,
+      33.7648264
+     ]
+    ]
+   }
+  }
+ ]
+}

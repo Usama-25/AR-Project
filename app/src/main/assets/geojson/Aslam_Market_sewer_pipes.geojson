@@ -1,0 +1,582 @@
+{
+ "type": "FeatureCollection",
+ "name": "Aslam_Market_sewer_pipes",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P001",
+    "type": "sewer",
+    "diameter_mm": 450,
+    "depth_m": 1.84,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MAP_EDGE",
+    "to_node": "MH001",
+    "length_m": 10.48,
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7663698,
+      33.7655389
+     ],
+     [
+      72.7664484,
+      33.7654709
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P002",
+    "type": "sewer",
+    "diameter_mm": 450,
+    "depth_m": 1.9,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH001",
+    "to_node": "MH002",
+    "length_m": 29.8,
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7664484,
+      33.7654709
+     ],
+     [
+      72.7666729,
+      33.7652785
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P003",
+    "type": "sewer",
+    "diameter_mm": 450,
+    "depth_m": 2.0,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH002",
+    "to_node": "MH003",
+    "length_m": 29.95,
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7666729,
+      33.7652785
+     ],
+     [
+      72.766899,
+      33.7650855
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P004",
+    "type": "sewer",
+    "diameter_mm": 450,
+    "depth_m": 2.12,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH003",
+    "to_node": "MH004",
+    "length_m": 29.85,
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.766899,
+      33.7650855
+     ],
+     [
+      72.7671233,
+      33.7648924
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P005",
+    "type": "sewer",
+    "diameter_mm": 450,
+    "depth_m": 2.22,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH004",
+    "to_node": "MH005",
+    "length_m": 29.99,
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7671233,
+      33.7648924
+     ],
+     [
+      72.7673495,
+      33.764699
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P006",
+    "type": "sewer",
+    "diameter_mm": 450,
+    "depth_m": 2.34,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH005",
+    "to_node": "MH006",
+    "length_m": 29.8,
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7673495,
+      33.764699
+     ],
+     [
+      72.7675737,
+      33.7645064
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P007",
+    "type": "sewer",
+    "diameter_mm": 450,
+    "depth_m": 2.45,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH006",
+    "to_node": "MH007",
+    "length_m": 30.01,
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7675737,
+      33.7645064
+     ],
+     [
+      72.7677996,
+      33.7643125
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P008",
+    "type": "sewer",
+    "diameter_mm": 450,
+    "depth_m": 2.55,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH007",
+    "to_node": "MH008",
+    "length_m": 30.05,
+    "street": "Quaid Ave service road (main market road)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7677996,
+      33.7643125
+     ],
+     [
+      72.7680229,
+      33.764116
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P009",
+    "type": "sewer",
+    "diameter_mm": 300,
+    "depth_m": 1.53,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MAP_EDGE",
+    "to_node": "MH009",
+    "length_m": 6.39,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7673659,
+      33.7651784
+     ],
+     [
+      72.7674189,
+      33.7651415
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P010",
+    "type": "sewer",
+    "diameter_mm": 300,
+    "depth_m": 1.58,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH009",
+    "to_node": "MH010",
+    "length_m": 23.48,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7674189,
+      33.7651415
+     ],
+     [
+      72.7676037,
+      33.7649966
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P011",
+    "type": "sewer",
+    "diameter_mm": 300,
+    "depth_m": 1.68,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH010",
+    "to_node": "MH011",
+    "length_m": 26.39,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7676037,
+      33.7649966
+     ],
+     [
+      72.7678102,
+      33.7648327
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P012",
+    "type": "sewer",
+    "diameter_mm": 300,
+    "depth_m": 1.78,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH011",
+    "to_node": "MH012",
+    "length_m": 24.52,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7678102,
+      33.7648327
+     ],
+     [
+      72.7680044,
+      33.7646825
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P013",
+    "type": "sewer",
+    "diameter_mm": 300,
+    "depth_m": 1.87,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH012",
+    "to_node": "MH013",
+    "length_m": 25.24,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7680044,
+      33.7646825
+     ],
+     [
+      72.7682019,
+      33.7645258
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P014",
+    "type": "sewer",
+    "diameter_mm": 300,
+    "depth_m": 1.92,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH013",
+    "to_node": "MAP_EDGE",
+    "length_m": 18.83,
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7682019,
+      33.7645258
+     ],
+     [
+      72.7683464,
+      33.7644064
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P015",
+    "type": "sewer",
+    "diameter_mm": 225,
+    "depth_m": 1.54,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MAP_EDGE",
+    "to_node": "MH014",
+    "length_m": 8.82,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7679778,
+      33.765402
+     ],
+     [
+      72.7680392,
+      33.7653412
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P016",
+    "type": "sewer",
+    "diameter_mm": 225,
+    "depth_m": 1.6,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH014",
+    "to_node": "MH015",
+    "length_m": 26.16,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7680392,
+      33.7653412
+     ],
+     [
+      72.7682374,
+      33.7651732
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P017",
+    "type": "sewer",
+    "diameter_mm": 225,
+    "depth_m": 1.72,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH015",
+    "to_node": "MH016",
+    "length_m": 26.02,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7682374,
+      33.7651732
+     ],
+     [
+      72.768435,
+      33.7650065
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P018",
+    "type": "sewer",
+    "diameter_mm": 225,
+    "depth_m": 1.83,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH016",
+    "to_node": "MH017",
+    "length_m": 21.91,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.768435,
+      33.7650065
+     ],
+     [
+      72.7686062,
+      33.7648703
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "P019",
+    "type": "sewer",
+    "diameter_mm": 225,
+    "depth_m": 1.88,
+    "material": "Concrete",
+    "year": 2026,
+    "from_node": "MH017",
+    "to_node": "MAP_EDGE",
+    "length_m": 4.52,
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "status": "proposed",
+    "layer": "sewer_pipes"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      72.7686062,
+      33.7648703
+     ],
+     [
+      72.7686399,
+      33.7648408
+     ]
+    ]
+   }
+  }
+ ]
+}

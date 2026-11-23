@@ -1,0 +1,372 @@
+{
+ "type": "FeatureCollection",
+ "name": "Aslam_Market_fiber_poles",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP001",
+    "type": "pole_splice_closure",
+    "street": "Quaid Ave service road (main market road)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7666085,
+     33.7654549
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP002",
+    "type": "pole_splice_closure",
+    "street": "Quaid Ave service road (main market road)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7668848,
+     33.7652174
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP003",
+    "type": "pole_splice_closure",
+    "street": "Quaid Ave service road (main market road)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7671624,
+     33.76498
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP004",
+    "type": "pole_splice_closure",
+    "street": "Quaid Ave service road (main market road)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.76744,
+     33.7647414
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP005",
+    "type": "pole_splice_closure",
+    "street": "Quaid Ave service road (main market road)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7677176,
+     33.7645039
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP006",
+    "type": "pole_splice_closure",
+    "street": "Quaid Ave service road (main market road)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7679939,
+     33.7642664
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP007",
+    "type": "pole_splice_closure",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7674789,
+     33.7651115
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP008",
+    "type": "pole_splice_closure",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7676358,
+     33.7649889
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP009",
+    "type": "pole_splice_closure",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7677914,
+     33.7648651
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP010",
+    "type": "pole_splice_closure",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7679483,
+     33.7647425
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP011",
+    "type": "pole_splice_closure",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7681038,
+     33.7646187
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP012",
+    "type": "pole_splice_closure",
+    "street": "Back lane (TCS / Wah Prize Bond Dealer)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7682608,
+     33.7644961
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP013",
+    "type": "pole_splice_closure",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7680301,
+     33.7653312
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP014",
+    "type": "pole_splice_closure",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7681347,
+     33.765242
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP015",
+    "type": "pole_splice_closure",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7682393,
+     33.7651528
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP016",
+    "type": "pole_splice_closure",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7683452,
+     33.7650636
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP017",
+    "type": "pole_splice_closure",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7684499,
+     33.7649744
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "FP018",
+    "type": "pole_splice_closure",
+    "street": "Northeast road (Shine Beauty Salon side)",
+    "height_m": 9,
+    "closure": "Dome 24-port",
+    "year": 2026,
+    "status": "proposed",
+    "layer": "fiber_poles"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     72.7685558,
+     33.7648852
+    ]
+   }
+  }
+ ]
+}
